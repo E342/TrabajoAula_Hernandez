@@ -1,0 +1,166 @@
+.contenedor-tarea {
+  width: 70%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor-tarea h1 {
+  color: white;
+  text-shadow: 1px 1px 2px white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+}
+.texto {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+.texto input {
+  width: 40%;
+  margin-right: 10px;
+  color: rgb(75, 75, 75);
+  border-radius: 10px;
+  border: none;
+}
+@media only screen and (max-device-width: 1024px) {
+  .texto input {
+    width: 70%;
+    height: 60px;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .agregar {
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+  }
+  .contenedor-tarea h1 {
+    font-size: 3em;
+  }
+}
+@media (max-width: 925px) {
+  .texto input {
+    width: 60%;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  .texto input {
+    width: 80%;
+  }
+}
+@media only screen and (max-device-width: 540px) {
+  .texto input {
+    width: 70%;
+    height: 35px;
+    font-size: 1.5em;
+  }
+  .texto button {
+    height: 45px;
+    width: 45px;
+  }
+  .contenedor-tarea h1 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-device-width: 414px) {
+  .texto input {
+    width: 90%;
+    height: 40px;
+    font-size: 1.6em;
+  }
+  .texto button {
+    height: 35px;
+    width: 35px;
+  }
+  .contenedor-tarea h1 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-device-width: 411px) {
+  .texto input {
+    width: 80%;
+    height: 35px;
+  }
+  .texto button {
+    height: 40px;
+    width: 40px;
+  }
+  .contenedor-tarea h1 {
+    font-size: 1.5em;
+  }
+  .contenedor-tarea {
+    height: 20%;
+  }
+}
+@media only screen and (max-device-width: 375px) {
+  .texto input {
+    width: 80%;
+    height: 35px;
+    font-size: 1.3em;
+  }
+  .texto button {
+    height: 38px;
+    width: 38px;
+  }
+  .contenedor-tarea h1 {
+    font-size: 1.6em;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .texto input {
+    width: 90%;
+    height: 35px;
+  }
+  .texto button {
+    height: 38px;
+    width: 38px;
+  }
+  .contenedor-tarea h1 {
+    font-size: 1.4em;
+  }
+  .contenedor-tarea {
+    height: 25%;
+  }
+}
+@media only screen and (max-device-width: 320px) {
+  .texto input {
+    width: 80%;
+    font-size: 1.3em;
+    height: 30px;
+  }
+  .texto button {
+    height: 33px;
+    width: 33px;
+  }
+  .contenedor-tarea h1 {
+    font-size: 1.2em;
+  }
+  .contenedor-tarea {
+    height: 25%;
+  }
+}
+@media only screen and (max-device-width: 280px) {
+  .texto input {
+    width: 80%;
+    font-size: 1.3em;
+    height: 35px;
+  }
+  .texto button {
+    height: 35px;
+    width: 35px;
+  }
+  .texto {
+    width: 100%;
+  }
+  .contenedor-tarea h1 {
+    font-size: 1.2em;
+  }
+  .contenedor-tarea {
+    height: 25%;
+  }
+}

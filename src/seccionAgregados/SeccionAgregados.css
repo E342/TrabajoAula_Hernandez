@@ -1,0 +1,154 @@
+.agregados {
+  width: 50%;
+  height: 50%;
+  background-color: #1d253599;
+  padding: 15px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.div-creado {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  background-color: rgb(60, 72, 179);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  width: 80%;
+}
+
+.titulo h3 {
+  width: 75%;
+  color: white;
+  text-align: center;
+}
+
+.boton {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton button {
+  background-image: url("/src/cheque.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .agregados {
+    width: 70%;
+  }
+  .titulo h3 {
+    font-size: 1.8em;
+  }
+  .div-creado {
+    height: auto;
+  }
+  .boton button {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 925px) {
+  .agregados {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .agregados {
+    width: 80%;
+  }
+  .titulo h3 {
+    font-size: 1.8em;
+  }
+  .div-creado {
+    height: auto;
+  }
+  .boton button {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media only screen and (max-device-width: 540px) {
+  .titulo h3 {
+    font-size: 1.3em;
+  }
+  .div-creado {
+    align-items: center;
+    height: auto;
+  }
+  .boton button {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media only screen and (max-device-width: 414px) {
+  .titulo h3 {
+    font-size: 1.2em;
+  }
+  .div-creado {
+    align-items: center;
+    height: auto;
+  }
+  .boton button {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media only screen and (max-device-width: 375px) {
+  .titulo h3 {
+    font-size: 1.1em;
+  }
+  .div-creado {
+    align-items: center;
+    height: auto;
+  }
+  .boton button {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-device-width: 360px) {
+  .titulo h3 {
+    font-size: 1.1em;
+  }
+  .div-creado {
+    align-items: center;
+    height: auto;
+  }
+  .boton button {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .titulo h3 {
+    font-size: 1em;
+  }
+  .div-creado {
+    align-items: center;
+    height: auto;
+  }
+  .boton button {
+    width: 27px;
+    height: 27px;
+  }
+}
